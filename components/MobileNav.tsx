@@ -29,7 +29,7 @@ const MobileNav = ({ navButtons }: CProps) => {
             {navButtons.map((button, index) => (
               <nav
                 key={index}
-                className={`text-lg text-center w-full pt-8 hover:text-orange-400 hover:border-b-2 hover:border-orange-400 capitalize transition-all 
+                className={`text-lg text-center w-full pt-8 hover:text-orange-400 capitalize transition-all 
                             ${pathname === button.path ? "text-orange-400 border-b-2 border-orange-400" : "text-white"}`}
               >
                 <Link
