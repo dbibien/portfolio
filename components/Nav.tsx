@@ -1,6 +1,22 @@
 import Link from "next/link"
 
+const navButtons = [
+  {
+    name: "Home",
+    path: "/"
+  },
+  {
+    name: "Projects",
+    path: "/projects"
+  },
+  {
+    name: "Resume",
+    path: "/resume"
+  },
+]
+
 const Nav = () => {
+
   return (
     <div className="flex justify-between items-center p-4">
       <div>
@@ -8,9 +24,10 @@ const Nav = () => {
       </div>
 
       <div className="flex gap-3">
-        <Link href="/" className="text-xl">Home</Link>
-        <Link href="/projects" className="text-xl">Projects</Link>
-        <Link href="/resume" className="text-xl">Resume</Link>
+        {navButtons.map((button, index) => (
+          <Link key={index} href={button.path} className="text-xl">{button.name}</Link>
+        ))
+        }
       </div>
     </div>
   )
