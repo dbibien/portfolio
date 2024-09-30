@@ -27,15 +27,18 @@ const MobileNav = ({ navButtons }: CProps) => {
           <SheetTitle></SheetTitle>
           <div className="flex flex-col justify-center items-center">
             {navButtons.map((button, index) => (
-              <Link
+              <nav
                 key={index}
-                href={button.path}
                 className={`text-lg text-center w-full pt-8 hover:text-orange-400 hover:border-b-2 hover:border-orange-400 capitalize transition-all 
                             ${pathname === button.path ? "text-orange-400 border-b-2 border-orange-400" : "text-white"}`}
-                onClick={() => setOpen(false)}
               >
-                {button.name}
-              </Link>
+                <Link
+                  href={button.path}
+                  onClick={() => setOpen(false)}
+                >
+                  {button.name}
+                </Link>
+              </nav>
             ))}
           </div>
         </SheetContent>
