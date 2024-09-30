@@ -20,7 +20,7 @@ const MobileNav = ({ navButtons }: CProps) => {
     <>
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger>
-          <Menu color="white" />
+          <Menu color="#fb923c" />
         </SheetTrigger>
 
         <SheetContent className="pb-4">
@@ -30,7 +30,7 @@ const MobileNav = ({ navButtons }: CProps) => {
               <Link
                 key={index}
                 href={button.path}
-                className={`text-lg text-center w-full pt-6 hover:text-orange-400 hover:border-b-2 hover:border-orange-400 capitalize transition-all 
+                className={`text-lg text-center w-full pt-8 hover:text-orange-400 hover:border-b-2 hover:border-orange-400 capitalize transition-all 
                             ${pathname === button.path ? "text-orange-400 border-b-2 border-orange-400" : "text-white"}`}
                 onClick={() => setOpen(false)}
               >
