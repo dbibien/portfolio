@@ -23,11 +23,10 @@ const Nav = () => {
         <p className="text-2xl font-bold">DBibien <span className="text-4xl font-bold text-orange-400">.</span></p>
       </div>
 
-      <div className="flex gap-3">
+      <div className="hidden sm:flex sm:gap-3">
         {navButtons.map((button, index) => (
           <Link key={index} href={button.path} className="text-xl">{button.name}</Link>
-        ))
-        }
+        ))}
       </div>
     </div>
   )
