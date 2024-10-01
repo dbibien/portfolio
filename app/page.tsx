@@ -18,10 +18,10 @@ const Home = () => {
       <div className="mt-4 flex flex-col gap-4 items-center lg:flex lg:flex-row lg:items-center lg:gap-2">
         <Button
           variant="outline"
-          className="flex items-start gap-2  w-48"
+          className="text-lg flex items-center gap-2  w-52 h-12"
         >
           Download Resume
-          <Download size={18} />
+          <Download size="60" />
         </Button>
 
         <SocialLinks />
