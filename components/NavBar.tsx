@@ -21,7 +21,7 @@ const navButtons = [
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center p-4 bg-background sticky top-0 z-[50]">
       <div>
         <Link href="/">
           <h1 className="text-3xl text-white font-semibold">
