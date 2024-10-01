@@ -5,7 +5,7 @@ import { Download } from "lucide-react"
 const Home = () => {
   return (
     <div className="pt-8">
-      <p className="text-center text-lg text-white tracking-wide lg:text-left">Full Stack Software Developer</p>
+      <p className="text-center text-lg text-white tracking-wide underline lg:text-left">Full Stack Software Developer</p>
 
       <h1 className="text-center text-white font-semibold text-4xl lg:text-left">
         Hello, I am <br /> <span className="text-orange-400">Bibien Dauphin</span>
