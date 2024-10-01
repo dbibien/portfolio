@@ -14,13 +14,13 @@ const Home = () => {
         </div>
 
         <div className="mt-4 lg:order-1">
-          <p className="text-center text-lg text-white tracking-wide underline lg:text-left">Full Stack Software Developer</p>
+          <p className="text-center text-lg text-white/75 tracking-wide lg:text-left">Full Stack Software Developer</p>
 
           <h1 className="text-center text-white font-semibold text-4xl lg:text-left">
-            Hello, I am <br /> <span className="text-orange-400">Bibien Dauphin</span>
+            Hello, I am <br /> <span className="text-orange-400 tracking-wide">Bibien Dauphin</span>
           </h1>
 
-          <p className="text-center text-white text-lg pt-4 lg:text-left">
+          <p className="text-center text-white/75 text-lg pt-4 lg:text-left">
             I specialize in creating scalable and efficient web applications that deliver seamless user experiences
           </p>
 
