@@ -1,6 +1,10 @@
+import ProjectListing from "@/components/ProjectListing"
+
 const Projects = () => {
   return (
-    <p>Project page</p>
+    <div>
+      <ProjectListing />
+    </div>
   )
 }
 
