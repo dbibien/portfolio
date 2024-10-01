@@ -4,8 +4,8 @@ const AboutMe = () => {
   return (
     <>
       <h3 className="text-white font-semibold text-xl">About me</h3>
-      <div className="w-full h-full flex gap-8">
-        <div className="flex-5">
+      <div className="w-full h-full lg:flex lg:gap-8">
+        <div className="m-auto w-[398px] h-[50] lg:flex-5">
           <Image
             src="/assets/about.png"
             priority
