@@ -24,7 +24,7 @@ const SocialLinks = () => {
         >
           <button className="bg-zinc-800 hover:bg-zinc-700 transition-all w-32 flex gap-2 justify-center items-center p-2 rounded-xl">
             {social.icon}
-            <span className="text-white">{social.name}</span>
+            <span className="text-white/75 hover:text-white transition-all">{social.name}</span>
           </button>
         </Link>
       ))}
