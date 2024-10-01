@@ -1,12 +1,12 @@
 import Photo from "@/components/Photo"
 import SocialLinks from "@/components/SocialLinks"
+import Technologies from "@/components/Technologies"
 import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
 
 const Home = () => {
   return (
     <div className="">
-
       <div className="lg:flex lg:flex-row">
         <div className="lg:order-2">
           <Photo />
@@ -31,9 +31,14 @@ const Home = () => {
               Download Resume
               <Download size="60" />
             </Button>
+
             <SocialLinks />
           </div>
         </div>
+      </div>
+
+      <div className="mt-4">
+        <Technologies />
       </div>
     </div>
   )
