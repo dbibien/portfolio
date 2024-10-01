@@ -30,11 +30,11 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <div className="hidden sm:flex sm:gap-6">
+      <div className="hidden lg:flex lg:gap-6">
         <DeskTopNav navButtons={navButtons} />
       </div>
 
-      <div className="sm:hidden">
+      <div className="lg:hidden">
         <MobileNav navButtons={navButtons} />
       </div>
     </div>
