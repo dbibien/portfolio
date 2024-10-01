@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe"
 import Photo from "@/components/Photo"
 import SocialLinks from "@/components/SocialLinks"
 import Technologies from "@/components/Technologies"
@@ -39,6 +40,10 @@ const Home = () => {
 
       <div className="mt-4">
         <Technologies />
+      </div>
+
+      <div className="mt-4">
+        <AboutMe />
       </div>
     </div>
   )
