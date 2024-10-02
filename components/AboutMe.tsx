@@ -5,13 +5,13 @@ const AboutMe = () => {
     <>
       <h3 className="text-white font-semibold text-xl">About me</h3>
       <div className="w-full h-full lg:flex lg:gap-8">
-        <div className="m-auto w-[398px] h-[50] lg:flex-5">
+        <div className="m-auto w-[350px] h-[50] lg:flex-5">
           <Image
             src="/assets/about.png"
             priority
             quality={100}
             // fill
-            width={398}
+            width={350}
             height={50}
             alt="about me image"
             className="object-contain"
