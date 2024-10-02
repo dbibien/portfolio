@@ -17,7 +17,7 @@ type CProps = {
       other: string,
     }
   },
-  order: {
+  order?: {
     video: number,
     description: number,
   }
