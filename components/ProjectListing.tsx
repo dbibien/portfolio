@@ -16,22 +16,25 @@ type CProps = {
       backEnd: string,
       other: string,
     }
-
+  },
+  order: {
+    video: number,
+    description: number,
   }
 }
 
-const ProjectListing = ({ data }: CProps) => {
+const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) => {
   return (
     <div>
       <h3 className="text-white font-semibold text-lg lg:text-2xl">{data.title}</h3>
       <h4 className="text-white/75 mb-2">{data.subTitile}</h4>
 
       <div className="lg:flex lg:flex-row lg:gap-8">
-        <div>
+        <div className={`lg:order-${order.video}`}>
           <Video videoId={data.videoId} />
         </div>
 
-        <div>
+        <div className={`lg:order-${order.description}`}>
           <div className="flex justify-center gap-2 mt-4 mb-4 lg:justify-start lg:mt-0 lg:w-[600px]">
             {data.liveDemoLink && (
               <SocialLinkButton
@@ -74,12 +77,9 @@ const ProjectListing = ({ data }: CProps) => {
             </ul>
           </div>
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   )
 }
 
 export default ProjectListing
-
-
-// <iframe width="560" height="315" src="https://www.youtube.com/embed/hdHjjBS4cs8?si=6wHQRzWIYvEej2wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
