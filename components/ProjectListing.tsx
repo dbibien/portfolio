@@ -37,13 +37,13 @@ const ProjectListing = () => {
             <h4 className="text-white font-semibold text-md mt-2">Technology used:</h4>
             <ul className="list-inside list-disc">
               <li className="list-item">
-                <span className="font-semibold text-orange-400">Frontend: </span> React, JavaScript/TypeScript, Vite
+                <span className="font-semibold text-orange-400">Frontend: </span> React, React-router, Shadcn/ui, Tailwind, JavaScript/TypeScript, Zustand
               </li>
               <li className="list-item">
-                <span className="font-semibold text-orange-400">Backend: </span> React, JavaScript/TypeScript, Vite
+                <span className="font-semibold text-orange-400">Backend: </span> Go, Mysql, Twilio API
               </li>
               <li className="list-item">
-                <span className="font-semibold text-orange-400">Other: </span> React, JavaScript/TypeScript, Vite
+                <span className="font-semibold text-orange-400">Other: </span>Jira, Git
               </li>
             </ul>
           </div>
