@@ -9,7 +9,7 @@ const ProjectListing = () => {
       <h4 className="text-white/75 mb-2">A community management software for security teams</h4>
 
       <div className="lg:flex lg:flex-row lg:gap-8">
-        <div className="">
+        <div>
           <Video videoId="hdHjjBS4cs8?si=6wHQRzWIYvEej2wc" />
         </div>
 
