@@ -1,10 +1,9 @@
 const video = ({ videoId }: { videoId: string }) => {
   return (
-    // <div className="relative pb-[56.25%] h-0">
-    <div className="h-[50vh]">
+    <div className="relative h-[40vh] lg:h-auto">
       <iframe
         // className="absolute top-0 left-0 w-full h-full lg:w-[720px] lg:h-[480px]"
-        className="w-full h-full lg:w-[720px] lg:h-[480px]"
+        className="w-full h-full lg:w-[600px] lg:h-[400px]"
         src={`https://www.youtube.com/embed/${videoId}`}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -15,4 +14,5 @@ const video = ({ videoId }: { videoId: string }) => {
   )
 }
 
-export default video;
+export default video
+// <div className="h-[42vh]">
