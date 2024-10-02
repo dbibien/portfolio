@@ -5,10 +5,11 @@ import Video from "./Video"
 const ProjectListing = () => {
   return (
     <div>
-      <h3 className="text-white font-semibold text-lg mb-2">SCMS: <span>A community management software for security teams</span></h3>
+      <h3 className="text-white font-semibold text-lg lg:text-2xl">SCMS</h3>
+      <h4 className="text-white/75 mb-2">A community management software for security teams</h4>
 
       <div className="lg:flex lg:flex-row lg:gap-8">
-        <div className="lg:flex-1">
+        <div className="">
           <Video videoId="hdHjjBS4cs8?si=6wHQRzWIYvEej2wc" />
         </div>
 
@@ -18,7 +19,7 @@ const ProjectListing = () => {
             <SocialLinkButton name="Github" path="https://github.com/dbibien/scms_fe" icon={<Github color="white" size={18} />} />
           </div>
 
-          <div className="text-white/75 text-lg lg:flex-5">
+          <div className="text-white/75 text-lg">
             <h4 className="text-white font-semibold">Description:</h4>
             <p>
               SCMS is a property management software for security teams of gated communities and country clubs.
