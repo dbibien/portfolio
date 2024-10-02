@@ -7,13 +7,13 @@ import { Download } from "lucide-react"
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <div className="lg:flex lg:flex-row">
         <div className="lg:order-2">
           <Photo />
         </div>
 
-        <div className="mt-4 lg:order-1">
+        <div className="mt-2 lg:order-1">
           <p className="text-center text-lg text-white/75 tracking-wide lg:text-left">Full Stack Software Developer</p>
 
           <h1 className="text-center text-white font-semibold text-4xl lg:text-left">
