@@ -3,21 +3,24 @@ import SocialLinkButton from "./SocialLinkButton"
 import Video from "./Video"
 
 type CProps = {
-  title: string,
-  subTitile: string,
-  videoId: string,
-  liveDemoLink: string,
-  githubLink?: string,
-  description: string,
-  benefits: string[],
-  tech: {
-    frontEnd: string,
-    backEnd: string,
-    other: string,
+  data: {
+    title: string,
+    subTitile: string,
+    videoId: string,
+    liveDemoLink: string,
+    githubLink?: string,
+    description: string,
+    benefits: string[],
+    tech: {
+      frontEnd: string,
+      backEnd: string,
+      other: string,
+    }
+
   }
 }
 
-const ProjectListing = ({ title, subTitile, videoId, liveDemoLink, githubLink, description, benefits, tech }: CProps) => {
+const ProjectListing = ({ data }: CProps) => {
   return (
     <div>
       <h3 className="text-white font-semibold text-lg lg:text-2xl">SCMS</h3>
