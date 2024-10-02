@@ -30,7 +30,7 @@ const ProjectListing = () => {
             <h4 className="text-white font-semibold text-md mt-2">Chief benefits of SCMS:</h4>
             <ul className="list-inside list-disc">
               <li className="list-item">With a push of a button, residents can now be notified of issues/concerns regarding their home and the community</li>
-              <li className="list-item">Streamline the reporting process by moving all report from traditional pen/paper to digital report generation</li>
+              <li className="list-item">Streamline the reporting process by moving all reports from traditional pen/paper to digital report generation</li>
               <li className="list-item">Since traditional pen/paper reporting is no more, many of the reports are now generated automatically</li>
             </ul>
 
