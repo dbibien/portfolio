@@ -15,7 +15,7 @@ const ProjectListing = () => {
 
         <div>
           <div className="flex justify-center gap-2 mt-4 mb-4 lg:justify-start lg:mt-0 lg:w-[600px]">
-            <SocialLinkButton name="Live Demo" path="https://scms.onrender.com" icon={<RadioTower color="white" size={18} />} />
+            <SocialLinkButton name="Live Demo" path="https://scms-fe.onrender.com/" icon={<RadioTower color="white" size={18} />} />
             <SocialLinkButton name="Github" path="https://github.com/dbibien/scms_fe" icon={<Github color="white" size={18} />} />
           </div>
 
