@@ -61,7 +61,6 @@ const AboutMe = () => {
             My commitment to continuous learning keeps me adaptable in this ever-evolving tech landscape.
           </p>
         </div >
-
       </div >
     </>
   )
