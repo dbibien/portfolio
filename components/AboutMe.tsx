@@ -1,5 +1,24 @@
 import Image from "next/image"
 
+const technicalSkills = [
+  {
+    name: "Frontend",
+    value: "HTML/CSS/Tailwind, React, JavaScript/TypeScript, Zustand, Chadcnui, Material UI (MUI)",
+  },
+  {
+    name: "Mobile",
+    value: "React Native, Nativewind, JavaScript/TypeScript, Zustand",
+  },
+  {
+    name: "Backend",
+    value: "Node.js, JavaScript/TypeScript, Go, Python",
+  },
+  {
+    name: "Other",
+    value: "HTTP/REST API for communication between client and server",
+  },
+]
+
 const AboutMe = () => {
   return (
     <>
@@ -24,14 +43,18 @@ const AboutMe = () => {
             My passion for coding fuels my commitment to staying current with industry trends and best practices, enabling me to deliver high-quality results on every project.
           </p>
 
-          <h3 className="mt-4">𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐒𝐤𝐢𝐥𝐥𝐬:</h3>
+          <h3 className="mt-4 text-white font-semibold text-xl">Technical skills:</h3>
           <ul className="list-inside list-disc">
-            <li>HTML/CSS/Tailwind, Chadcn/ui, React and, JavaScript/TypeScript on the client </li>
-            <li>Node.js, JavaScript/TypeScript, Python or, Go on the server</li>
-            <li>HTTP/REST API for communication between client and server</li>
+            {technicalSkills.map((skill, index) => (
+              <li key={index}>
+                <span className="font-semibold text-orange-400">{skill.name}: </span>
+                {skill.value}
+              </li>
+
+            ))}
           </ul>
 
-          <h3 className="mt-4">𝐕𝐚𝐥𝐮𝐞 𝐎𝐟𝐟𝐞𝐫𝐞𝐝:</h3>
+          <h3 className="mt-4 text-white font-semibold text-xl">Value offered:</h3>
           <p>I bridge front-end and back-end technologies, offering a holistic perspective on projects.
             My strong knowledge in client and server-side development enables me to create seamless user experiences and robust applications.
             With a solid foundation in diverse programming languages and frameworks, I tackle complex challenges and deliver innovative solutions that meet user needs and drive business goals.
