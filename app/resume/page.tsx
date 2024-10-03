@@ -1,6 +1,8 @@
+import ResumeInfo from "@/components/Resume"
+
 const Resume = () => {
   return (
-    <p>Resume page</p>
+    <ResumeInfo />
   )
 }
 
