@@ -1,3 +1,4 @@
+import ResumeExperience from "./ResumeExperience"
 import ResumeHeader from "./ResumeHeader"
 import ResumeSkills from "./ResumeSkills"
 
@@ -7,6 +8,7 @@ const ResumeInfo = () => {
       <div>
         <ResumeHeader />
         <ResumeSkills />
+        <ResumeExperience />
       </div>
     </div >
   )

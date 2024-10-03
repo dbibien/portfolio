@@ -1,3 +1,4 @@
+import ResumeSectionTitle from "./ResumeSectionTitle"
 import { Separator } from "./ui/separator"
 
 const skillList = ["JavaScript", "TypeScript", "React", "React Native", "Next.js", "Node", "Express", "Jest", "Python",
@@ -8,7 +9,7 @@ const skillList = ["JavaScript", "TypeScript", "React", "React Native", "Next.js
 const ResumeSkills = () => {
   return (
     <div>
-      <h3 className="mt-4 text-white font-semibold text-xl">Skills</h3>
+      <ResumeSectionTitle title="SKILLS" />
       <Separator />
       <div className="mt-2">
         {skillList.map((sill, index) => (
