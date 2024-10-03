@@ -1,9 +1,8 @@
 import AboutMe from "@/components/AboutMe"
+import DownloadResume from "@/components/DownloadResume"
 import Photo from "@/components/Photo"
 import SocialLinks from "@/components/SocialLinks"
 import Technologies from "@/components/Technologies"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
 
 const Home = () => {
   return (
@@ -25,14 +24,7 @@ const Home = () => {
           </p>
 
           <div className="mt-4 flex flex-col gap-4 items-center lg:flex lg:flex-row lg:items-center lg:gap-2">
-            <Button
-              variant="outline"
-              className="text-lg flex items-center gap-2  w-52 h-12"
-            >
-              Download Resume
-              <Download size="60" />
-            </Button>
-
+            <DownloadResume />
             <SocialLinks />
           </div>
         </div>
