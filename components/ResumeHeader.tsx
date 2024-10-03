@@ -13,10 +13,10 @@ const ResumeHeader = () => {
           Github.com/dbibien
         </Link>
         <Link
-          href="https://linkedin/in/dbibien"
+          href="https://linkedin.com/in/dbibien"
           className="text-orange-400 text-xl hover:text-orange-500"
         >
-          Linkedin/in/dbibien
+          Linkedin.com/in/dbibien
         </Link>
       </div>
     </>
