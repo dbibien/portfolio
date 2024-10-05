@@ -1,21 +1,10 @@
 import Marquee from "react-fast-marquee"
-import { FaReact } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaNodeJs } from "react-icons/fa";
-import { TbBrandReactNative } from "react-icons/tb";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { DiPostgresql } from "react-icons/di";
-import { DiMysql } from "react-icons/di";
-import { SiJira } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
-import { FaGolang } from "react-icons/fa6";
-import { SiDjango } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
+import { SiTypescript, SiDjango, SiJira } from "react-icons/si"
+import { FaHtml5, FaCss3, FaNodeJs, FaGithub, FaGitAlt, FaReact, FaAws, FaPython } from "react-icons/fa"
+import { RiTailwindCssFill } from "react-icons/ri"
+import { TbBrandReactNative, TbBrandNextjs } from "react-icons/tb"
+import { DiPostgresql, DiRedis, DiMysql } from "react-icons/di"
+import { FaGolang } from "react-icons/fa6"
 
 const techs = [
   {
@@ -65,6 +54,10 @@ const techs = [
   {
     icon: <DiMysql color="white" size={32} />,
     title: "MySql",
+  },
+  {
+    icon: <DiRedis color="white" size={32} />,
+    title: "Redis",
   },
   {
     icon: <FaAws color="white" size={32} />,
