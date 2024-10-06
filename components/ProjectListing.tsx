@@ -25,8 +25,8 @@ type CProps = {
 
 const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) => {
   return (
-    <div>
-      <h3 className="text-white font-semibold text-lg lg:text-2xl">{data.title}</h3>
+    <div className="mb-8 lg:mb-32">
+      <h3 className="text-white font-semibold underline text-2xl">{data.title}</h3>
       <h4 className="text-white/75 mb-2">{data.subTitile}</h4>
 
       <div className="lg:flex lg:flex-row lg:gap-8">
@@ -66,10 +66,10 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
             <h4 className="text-white font-semibold text-md mt-2">Technology used:</h4>
             <ul className="list-inside list-disc">
               <li className="list-item">
-                <span className="font-semibold text-orange-400">Frontend: </span>{data.tech.frontEnd}
+                <span className="font-semibold text-orange-400">Client: </span>{data.tech.frontEnd}
               </li>
               <li className="list-item">
-                <span className="font-semibold text-orange-400">Backend: </span>{data.tech.backEnd}
+                <span className="font-semibold text-orange-400">Server: </span>{data.tech.backEnd}
               </li>
               <li className="list-item">
                 <span className="font-semibold text-orange-400">Other: </span>{data.tech.other}
