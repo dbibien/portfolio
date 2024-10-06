@@ -1,4 +1,4 @@
-const video = ({ videoId }: { videoId: string }) => {
+const video = ({ videoId }: { videoId?: string }) => {
   return (
     <div className="relative">
       <iframe

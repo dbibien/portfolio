@@ -1,12 +1,13 @@
 import { Github, RadioTower } from "lucide-react"
 import SocialLinkButton from "./SocialLinkButton"
 import Video from "./Video"
+import Image from "next/image"
 
 type CProps = {
   data: {
     title: string,
     subTitile: string,
-    videoId: string,
+    videoId?: string,
     liveDemoLink?: string,
     githubLink?: string,
     description: string,
@@ -31,9 +32,24 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
       <h4 className="text-white/75 mb-2">{data.subTitile}</h4>
 
       <div className="lg:flex lg:flex-row lg:gap-8">
-        <div className={`lg:order-${order.video}`}>
-          <Video videoId={data.videoId} />
-        </div>
+        {data?.videoId !== "" ? (
+          <div className={`lg:order-${order.video}`}>
+            <Video videoId={data?.videoId} />
+          </div>
+        ) : (
+          <div className="w-full h-full relative">
+            <div className="w-[298px] h-[298px] lg:w-[498px] lg:h-[498px]">
+              <Image
+                src="/assets/portfolioSite.png"
+                alt="Image of portfolio website"
+                priority
+                quality={100}
+                fill
+                className="object-contain"
+              />
+            </div>
+          </div>
+        )}
 
         <div className={`lg:order-${order.description}`}>
           <div className="flex justify-center gap-2 mt-4 mb-4 lg:justify-start lg:mt-0 lg:w-[600px]">
