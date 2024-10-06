@@ -32,12 +32,12 @@ const projectListingData = [
     liveDemoLink: "",
     githubLink: "",
     description: `MAAPPS Mobile is the mobile app portion of a greater set of tools to help improve 
-                  valet parking operation for hotels, resstaurents and, all establishments offereing valet parking to their guests. 
+                  valet parking operation for hotels, restaurants and, all establishments/events offereing valet parking to their guests. 
     `,
     benefits: [
-      "Make the process of parking and retrieving vehicle simple by allowing the valet attendant to only concern themselves with parking and retreiving the vehicle",
-      "Stripe help bring effiency to collecting payments",
-      "Twilio removes paper tickes and help keep in communication with guests",
+      "By efficiently managing all logistical details behind the scenes, valet parking attendants are left to concentrate on parking and retrieving vehicles, empowering them to create memorable guest experiences",
+      "Reduce congestion at the payment booth by shifting all transactions to online payments using Stripe",
+      "Remove paper tickets entirely by implementing SMS-based digital ticketing",
     ],
     tech: {
       frontEnd: "React Native, Expo, Nativewind, JavaScript/TypeScript, Zod, Zustand",
