@@ -16,6 +16,7 @@ type CProps = {
       backEnd: string,
       other: string,
     }
+    note?: string,
   },
   order?: {
     video: number,
@@ -75,6 +76,14 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
                 <span className="font-semibold text-orange-400">Other: </span>{data.tech.other}
               </li>
             </ul>
+
+            {data.videoId && (
+              <p className="text-white/75 mt-4 text-lg">Take a quick look at the 60 seconds video demo</p>
+            )}
+
+            {data.note && (
+              <p className="text-orange-400/75 mt-4 text-sm">* {data.note}</p>
+            )}
           </div>
         </div>
       </div >

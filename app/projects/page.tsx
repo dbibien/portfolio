@@ -44,6 +44,7 @@ const projectListingData = [
       backEnd: "Go, Mysql, Redis, Websocket, Twilio, Stripe",
       other: "Jira, Git, Github",
     },
+    note: "This is a Start-Up. Thhe code is not publically available. However, I am happy to further discuss this project with potential employers",
     order: {
       video: 2,
       description: 1,
