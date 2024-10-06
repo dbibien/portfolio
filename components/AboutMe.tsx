@@ -3,19 +3,19 @@ import Image from "next/image"
 const technicalSkills = [
   {
     name: "Frontend",
-    value: "HTML/CSS/Tailwind, React, JavaScript/TypeScript, Zustand, Chadcnui, Material UI (MUI)",
+    value: "HTML/CSS/Tailwind, Next.js, React, JavaScript/TypeScript, Zustand, Chadcnui, Material UI (MUI)",
   },
   {
     name: "Mobile",
-    value: "React Native, Nativewind, JavaScript/TypeScript, Zustand",
+    value: "React Native, Expo, Nativewind, JavaScript/TypeScript, Zustand",
   },
   {
     name: "Backend",
-    value: "Node.js, JavaScript/TypeScript, Go, Python",
+    value: "Node.js, JavaScript/TypeScript, Go, Python, Postgresql, Mysql, Redis",
   },
   {
     name: "Other",
-    value: "HTTP/REST API for communication between client and server",
+    value: "HTTP/REST API, Websockets, AWS",
   },
 ]
 
