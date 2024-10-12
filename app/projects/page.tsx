@@ -61,7 +61,7 @@ const projectListingData = [
       "Showcases some of my work",
     ],
     tech: {
-      frontEnd: "React, JavaScript/TypeScript, Shadcn/ui",
+      frontEnd: "Next.js, React, JavaScript/TypeScript, Shadcn/ui",
       backEnd: "N/A",
       other: "Jira, Git, Github",
     },
