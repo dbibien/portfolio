@@ -94,7 +94,7 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
             </ul>
 
             {data.videoId && (
-              <p className="text-white/75 mt-4 text-lg">Take a quick look at the 60 seconds video demo</p>
+              <p className="text-white/75 mt-4 text-lg">Take a quick look at the short video demo</p>
             )}
 
             {data.note && (
