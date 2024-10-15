@@ -8,12 +8,14 @@ const ResumeHeader = () => {
       <div className="flex flex-col text-center gap-4 mt-4 lg:flex lg:flex-row lg:justify-between lg:w-[30vw] lg:m-auto lg:mt-2">
         <Link
           href="https://github.com/dbibien"
+          target="_blank" // allows links to open on a different page
           className="text-orange-400 text-xl hover:text-orange-500"
         >
           Github.com/dbibien
         </Link>
         <Link
           href="https://linkedin.com/in/dbibien"
+          target="_blank" // allows links to open on a different page
           className="text-orange-400 text-xl hover:text-orange-500"
         >
           Linkedin.com/in/dbibien
