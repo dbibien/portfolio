@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Biien Dauphin Portfolio",
+  title: "Bibien Dauphin Portfolio | Software Engineer",
   description: "Portfolio of Bibien Dauphin, Software Engineer",
 };
 
