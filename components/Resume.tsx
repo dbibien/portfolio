@@ -6,7 +6,7 @@ import ResumeSkills from "./ResumeSkills"
 
 const ResumeInfo = () => {
   return (
-    <div className=" lg:w-[60vw] lg:m-auto">
+    <div className=" lg:w-[90rem] lg:m-auto">
       <DownloadResume />
 
       <div className="border-[0.3px] p-4 pt-8 mt-4">
