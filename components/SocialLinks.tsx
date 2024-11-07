@@ -19,6 +19,7 @@ const SocialLinks = () => {
     <div className="flex flex-col gap-4 lg:flex lg:flex-row lg:items-center lg:gap-2 items-center">
       {socials.map((social, index) => (
         <Link
+          target="_blank"
           href={social.path}
           key={index}
         >
