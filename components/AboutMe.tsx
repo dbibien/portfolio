@@ -1,23 +1,6 @@
 import Image from "next/image"
-
-const technicalSkills = [
-  {
-    name: "Frontend",
-    value: "HTML/CSS/Tailwind, Next.js, React, JavaScript/TypeScript, Zustand, Chadcnui, Material UI (MUI)",
-  },
-  {
-    name: "Mobile",
-    value: "React Native, Expo, Nativewind, JavaScript/TypeScript, Zustand",
-  },
-  {
-    name: "Backend",
-    value: "Node.js, JavaScript/TypeScript, Go, Python, Postgresql, Mysql, Redis",
-  },
-  {
-    name: "Other",
-    value: "HTTP/REST API, Websockets, AWS",
-  },
-]
+import TechnicalSkills from "./TechnicalSkills"
+import { technicalSkills } from "@/lib/utils"
 
 const AboutMe = () => {
   return (
@@ -44,15 +27,7 @@ const AboutMe = () => {
           </p>
 
           <h3 className="mt-4 text-white font-semibold text-xl">Technical skills:</h3>
-          <ul className="list-inside list-disc">
-            {technicalSkills.map((skill, index) => (
-              <li key={index}>
-                <span className="font-semibold text-orange-400">{skill.name}: </span>
-                {skill.value}
-              </li>
-
-            ))}
-          </ul>
+          <TechnicalSkills technicalSkills={technicalSkills} />
 
           <h3 className="mt-4 text-white font-semibold text-xl">Value offered:</h3>
           <p>I bridge front-end and back-end technologies, offering a holistic perspective on projects.
