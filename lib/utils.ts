@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 export const technicalSkills = [
   {
     name: "Frontend",
-    value: "HTML/CSS/Tailwind, Next.js, React, JavaScript/TypeScript, Zustand, React Testing Library, Jest, Chadcnui, Material UI (MUI)",
+    value: "HTML/CSS/Tailwind, Next.js, React, JavaScript/TypeScript, Zustand, React Testing Library, Jest, Shadcnui, Material UI (MUI)",
   },
   {
     name: "Mobile",
