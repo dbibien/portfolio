@@ -17,6 +17,10 @@ const navButtons = [
     name: "Resume",
     path: "/resume"
   },
+  {
+    name: "Contact",
+    path: "/contact"
+  },
 ]
 
 const NavBar = () => {
