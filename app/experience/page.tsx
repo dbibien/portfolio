@@ -56,7 +56,7 @@ const projectListingData = [
     subTitile: "Portfolio website that showcases some of my work",
     videoId: "",
     liveDemoLink: "",
-    githubLink: "",
+    githubLink: "https:github.com/dbibien/portfolio",
     description: `This is my portfolio website that showcases some of the projects I've worked on`,
     benefits: [
       "Showcases some of my work",
