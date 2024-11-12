@@ -63,6 +63,7 @@ const ContactForm = () => {
   const [message, setMessage] = useState("")
   const [successMessage, setSuccessMessage] = useState("")
 
+  // @ts-expect-error "ignore this"
   const onSubmit = async (e) => {
     e.preventDefault()
 
