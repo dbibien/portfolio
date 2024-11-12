@@ -1,6 +1,7 @@
 import Image from "next/image"
 import TechnicalSkills from "./TechnicalSkills"
 import { technicalSkills } from "@/lib/utils"
+import ContactMeLink from "./ContactMeLink"
 
 const AboutMe = () => {
   return (
@@ -35,6 +36,13 @@ const AboutMe = () => {
             With a solid foundation in diverse programming languages and frameworks, I tackle complex challenges and deliver innovative solutions that meet user needs and drive business goals.
             My commitment to continuous learning keeps me adaptable in this ever-evolving tech landscape.
           </p>
+
+          <div className="flex gap-4 items-center mt-4 pb-4">
+            <p className="text-white/75 text-lg pt-4 lg:text-left">
+              Let us get in touch!
+            </p>
+            <ContactMeLink />
+          </div>
         </div >
       </div >
     </>

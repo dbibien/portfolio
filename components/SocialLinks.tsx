@@ -23,7 +23,7 @@ const SocialLinks = () => {
           href={social.path}
           key={index}
         >
-          <button className="bg-zinc-800 hover:bg-zinc-700 transition-all w-32 flex gap-2 justify-center items-center p-2 rounded-xl">
+          <button className="bg-zinc-800 hover:bg-zinc-700 transition-all w-36 flex gap-2 justify-center items-center p-2 rounded-xl">
             {social.icon}
             <span className="text-white/75 hover:text-white transition-all">{social.name}</span>
           </button>
