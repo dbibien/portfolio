@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe"
+import ContactMeLink from "@/components/ContactMeLink"
 import DownloadResume from "@/components/DownloadResume"
 import Photo from "@/components/Photo"
 import SocialLinks from "@/components/SocialLinks"
@@ -26,6 +27,7 @@ const Home = () => {
           <div className="mt-4 flex flex-col gap-4 items-center lg:flex lg:flex-row lg:items-center lg:gap-2">
             <DownloadResume />
             <SocialLinks />
+            <ContactMeLink />
           </div>
         </div>
       </div>
