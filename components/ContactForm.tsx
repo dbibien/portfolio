@@ -84,7 +84,7 @@ const ContactForm = () => {
       setName("")
       setEmail("")
       setMessage("")
-      setSuccessMessage("We will be in touch")
+      setSuccessMessage("Thank you! We will be in touch!")
     }
   }
 
