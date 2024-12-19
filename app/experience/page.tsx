@@ -7,9 +7,11 @@ const projectListingData = [
     videoId: "Zdrq0CZjbOc?si=THjvLlIRSx5ED34S",
     liveDemoLink: "https://scms-fe.onrender.com/",
     githubLink: "https://github.com/dbibien/scms_fe",
-    description: `SCMS is a property management software for security teams of gated communities and country clubs. 
-                  It tackles specific problems with the existing management approach of these types of facilities. 
-                  SCMS currently manages a country club with 743 homes, enhancing resident engagement and optimizing the reporting process.`,
+    description: `
+      SCMS is a property management software designed specifically for security teams at gated communities and country clubs. 
+      This solution addresses the unique challenges of managing these types of facilities, offering tailored features that streamline operations and improve security protocols.
+      SCMS is currently managing a country club with 743 homes, enhancing resident engagement through seamless communication tools and optimizing the reporting process for greater efficiency and accuracy.
+    `,
     benefits: [
       "With a push of a button, residents can now be notified of issues/concerns regarding their home and the community",
       "Streamline the reporting process by moving all reports from traditional pen/paper to digital report generation",
