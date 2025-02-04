@@ -7,6 +7,47 @@ const projectListingData = [
     videoId: "Zdrq0CZjbOc?si=THjvLlIRSx5ED34S",
     liveDemoLink: "https://scms-fe.onrender.com/",
     githubLink: "https://github.com/dbibien/scms_fe",
+    projImages: [
+      {
+        name: "scms0.png",
+        width: 700,
+        height: 650,
+      },
+      {
+        name: "scms1.png",
+        width: 700,
+        height: 650,
+      },
+      {
+        name: "scms2.png",
+        width: 700,
+        height: 650,
+      }, {
+        name: "scms3.png",
+        width: 700,
+        height: 650,
+      },
+      // {
+      //   name: "scms4copy.png",
+      //   width: 200,
+      //   height: 300,
+      // },
+      // {
+      //   name: "scms5.png",
+      //   width: 200,
+      //   height: 650,
+      // },
+      // {
+      //   name: "scms6.png",
+      //   width: 200,
+      //   height: 650,
+      // },
+      // {
+      //   name: "scms7.png",
+      //   width: 200,
+      //   height: 650,
+      // },
+    ],
     description: `
       SCMS is a property management software designed specifically for security teams at gated communities and country clubs. 
       This solution addresses the unique challenges of managing these types of facilities, offering tailored features that streamline operations and improve security protocols.
@@ -80,7 +121,11 @@ const Projects = () => {
   return (
     <div>
       {projectListingData.map((data, index) => (
-        <ProjectListing key={index} data={data} order={data.order} />
+        <ProjectListing
+          key={index}
+          data={data}
+          order={data.order}
+        />
       ))}
     </div>
   )
