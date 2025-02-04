@@ -95,27 +95,6 @@ const projectListingData = [
       description: 1,
     }
   },
-  {
-    title: "Portfolio Site",
-    subTitile: "Portfolio website that showcases some of my work",
-    videoId: "",
-    liveDemoLink: "",
-    githubLink: "https:github.com/dbibien/portfolio",
-    description: `This is my portfolio website that showcases some of the projects I've worked on`,
-    benefits: [
-      "Showcases some of my work",
-    ],
-    tech: {
-      frontEnd: "Next.js, React, JavaScript/TypeScript, Shadcn/ui, Tailwindcss",
-      backEnd: "N/A",
-      other: "Jira, Git, Github",
-    },
-    note: "",
-    order: {
-      video: 1,
-      description: 2,
-    }
-  },
 ]
 
 const Projects = () => {
