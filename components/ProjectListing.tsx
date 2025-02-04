@@ -39,7 +39,7 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
 
       <div className="lg:flex lg:flex-row lg:gap-8">
         <div className={`lg:order-${order.description}`}>
-          <div className="flex justify-center gap-2 mt-4 mb-4 lg:mt-0">
+          <div className="flex justify-center gap-2 mt-4 mb-4 lg:mt-4">
             {data.liveDemoLink && (
               <SocialLinkButton
                 name="Live Demo"
