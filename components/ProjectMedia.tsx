@@ -6,7 +6,7 @@ import Image from "next/image"
 
 type CProps = {
   images: ProjectImage[],
-  videoId: string,
+  videoId: string | undefined,
 }
 
 const ProjectMedia = ({ images, videoId }: CProps) => {
