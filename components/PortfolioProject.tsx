@@ -55,7 +55,7 @@ const PortfolioPorject = () => {
             )}
 
             {data.githubLink && (
-              <SocialLinkButton name="Github"
+              <SocialLinkButton name="View code"
                 path={data.githubLink}
                 icon={<Github color="white" size={18} />}
               />
