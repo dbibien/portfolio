@@ -2,8 +2,8 @@ import { Github, RadioTower } from "lucide-react"
 import SocialLinkButton from "./SocialLinkButton"
 import Video from "./Video"
 import Image from "next/image"
-import ProjectImageCarousel from "./ProjectImageCarousel"
 import { ProjectImage } from "@/common/types"
+import ProjectMedia from "./ProjectMedia"
 
 type CProps = {
   data: {
@@ -34,11 +34,10 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
       <h3 className="text-white font-semibold underline text-2xl">{data.title}</h3>
       <h4 className="text-white/75 mb-2">{data.subTitile}</h4>
 
-      <div className="w-[70vw] m-auto">
-        <ProjectImageCarousel
-          images={data.projImages}
-        />
-      </div>
+      <ProjectMedia
+        images={data.projImages}
+        videoId={data?.videoId}
+      />
 
       <div className="lg:flex lg:flex-row lg:gap-8">
         {data?.videoId !== "" ? (
