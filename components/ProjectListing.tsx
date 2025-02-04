@@ -49,7 +49,7 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
             )}
 
             {data.githubLink && (
-              <SocialLinkButton name="Github"
+              <SocialLinkButton name="View code"
                 path={data.githubLink}
                 icon={<Github color="white" size={18} />}
               />
