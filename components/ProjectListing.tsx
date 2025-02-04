@@ -1,7 +1,5 @@
 import { Github, RadioTower } from "lucide-react"
 import SocialLinkButton from "./SocialLinkButton"
-import Video from "./Video"
-import Image from "next/image"
 import { ProjectImage } from "@/common/types"
 import ProjectMedia from "./ProjectMedia"
 
@@ -40,27 +38,8 @@ const ProjectListing = ({ data, order = { video: 1, description: 2 } }: CProps) 
       />
 
       <div className="lg:flex lg:flex-row lg:gap-8">
-        {data?.videoId !== "" ? (
-          <div className={`lg:order-${order.video}`}>
-            <Video videoId={data?.videoId} />
-          </div>
-        ) : (
-          <div className="w-full h-full relative">
-            <div className="w-[298px] h-[298px] lg:w-[498px] lg:h-[498px]">
-              <Image
-                src="/assets/portfolioSite.png"
-                alt="Image of portfolio website"
-                priority
-                quality={100}
-                fill
-                className="object-contain"
-              />
-            </div>
-          </div>
-        )}
-
         <div className={`lg:order-${order.description}`}>
-          <div className="flex justify-center gap-2 mt-4 mb-4 lg:justify-start lg:mt-0 lg:w-[600px]">
+          <div className="flex justify-center gap-2 mt-4 mb-4 lg:mt-0">
             {data.liveDemoLink && (
               <SocialLinkButton
                 name="Live Demo"
