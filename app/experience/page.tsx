@@ -75,7 +75,43 @@ const projectListingData = [
     videoId: "PCsdWIAYjrQ?si=q0y5ObO_0ZXBCV4X",
     liveDemoLink: "",
     githubLink: "",
-    projImages: [],
+    projImages: [
+      {
+        name: "maappsLoginScreenDark.png",
+        width: 350,
+        height: 650,
+      },
+      {
+        name: "maappsLoginScreenLight.png",
+        width: 350,
+        height: 650,
+      },
+      {
+        name: "maappsHomeScreenLight.png",
+        width: 350,
+        height: 650,
+      },
+      {
+        name: "maappsHomeScreenDark.png",
+        width: 350,
+        height: 650,
+      },
+      {
+        name: "maappsAddWInputsLight.png",
+        width: 350,
+        height: 650,
+      },
+      {
+        name: "maappsSearchLight.png",
+        width: 350,
+        height: 650,
+      },
+      {
+        name: "maappsGuestPaymentLight.png",
+        width: 290,
+        height: 650,
+      },
+    ],
     description: `MAAPPS Mobile is the mobile app portion of a greater set of tools to help improve 
                   valet parking operation for hotels, restaurants and, all establishments/events offereing valet parking to their guests. 
     `,
