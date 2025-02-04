@@ -75,6 +75,7 @@ const projectListingData = [
     videoId: "PCsdWIAYjrQ?si=q0y5ObO_0ZXBCV4X",
     liveDemoLink: "",
     githubLink: "",
+    projImages: [],
     description: `MAAPPS Mobile is the mobile app portion of a greater set of tools to help improve 
                   valet parking operation for hotels, restaurants and, all establishments/events offereing valet parking to their guests. 
     `,
