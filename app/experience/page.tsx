@@ -1,3 +1,4 @@
+import PortfolioPorject from "@/components/PortfolioProject"
 import ProjectListing from "@/components/ProjectListing"
 
 const projectListingData = [
@@ -127,6 +128,7 @@ const Projects = () => {
           order={data.order}
         />
       ))}
+      <PortfolioPorject />
     </div>
   )
 }
